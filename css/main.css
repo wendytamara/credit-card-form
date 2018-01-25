@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.register-card {
+  padding-top: 4em;
+}
+
+/*Utils */
+
+.btn-yellow{
+  background-color: #fbd43b;
+}
+.grey-bold-font{
+  color: #212121;
+}
+
+.grey-light-font{
+  color: #8f8f8f;
+}
+
+.turquoise-font {
+  color: #00c3a3;
+}
+
+.purple-font {
+  color: #49233b;
+}
+
+
+/*Icons*/
+
+.icon-header{
+  height: 80px;
+}
+
+.icon-question{
+  position: absolute;
+  height: 25px;
+  top: 15px;
+  right: 15px;
+}
+
+/* Titles */
+
+.container-text {
+  padding: 0.5em;
+  margin-bottom:1em; 
+}
+.title-h2{
+  font-size: 1.4rem;
+  line-height: 1.6;
+  font-weight: bold;
+}
+.title-p{
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.input-field .prefix {
+  width: 2.3rem;
+}
+
+#next{
+  color: white!important;
+  box-shadow: none;
+
+}
+
+span {
+  display: inline-block; 
+  visibility: hidden;
+}
+
+input[type=text].valid:not(.browser-default)
+ {
+  border-bottom: 1px solid;
+  -webkit-box-shadow: 0 1px 0 0;
+  box-shadow: 0 1px 0 0;
+}
+input[type=text].valid:not(.browser-default):focus {
+  border-bottom: 1px solid #00c3a3;
+  -webkit-box-shadow: 0 1px 0 0 #00c3a3;
+  box-shadow: 0 1px 0 0 #00c3a3;
+}
